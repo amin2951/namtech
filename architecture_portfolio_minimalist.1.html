@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Studio arsitektur — desain arsitektur, interior, visualisasi 3D, renovasi, gambar kerja dan RAB.">
+<title>NamTech VERSE — Architecture & Design</title>
+<style>
+:root{--ink:#202020;--muted:#777;--paper:#f7f7f5;--white:#fff;--line:#e4e4e0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.65}
+a{color:inherit;text-decoration:none}.wrap{width:min(1160px,90%);margin:auto}
+header{position:sticky;top:0;z-index:5;background:rgba(247,247,245,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav{height:78px;display:flex;align-items:center;justify-content:space-between}.brand{font:600 1.1rem Georgia,serif;letter-spacing:.12em}.brand small{display:block;font: .58rem Arial,sans-serif;letter-spacing:.22em;color:var(--muted);margin-top:3px}
+.links{display:flex;gap:28px;font-size:.72rem;letter-spacing:.1em}.links a:hover{opacity:.55}.menu{display:none;border:1px solid var(--line);background:transparent;padding:9px 12px}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center;padding:75px 0 95px;min-height:650px}
+.kicker{font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;color:#777}
+h1,h2,h3{font-family:Georgia,'Times New Roman',serif;font-weight:400}h1{font-size:clamp(3rem,6vw,5.6rem);line-height:1.03;letter-spacing:-.04em;margin:22px 0}
+h1 span{color:#888}.lead{color:var(--muted);max-width:470px;font-size:1rem}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-block;padding:13px 20px;border:1px solid var(--ink);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase}.btn.dark{background:var(--ink);color:white}.btn.light:hover{background:var(--ink);color:white}
+.hero-img{height:500px;background:url('https://cdn.phototourl.com/anon/2026-11-19-9808395f-9892-4b50-96a8-23b0a5c4b57a.jpg') center/cover;position:relative}
+.placeholder{position:absolute;bottom:14px;left:14px;background:rgba(255,255,255,.9);padding:7px 10px;font-size:.58rem;letter-spacing:.12em}
+section{padding:88px 0;border-top:1px solid var(--line)}.head{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:38px}
+h2{font-size:clamp(2.2rem,4vw,3.4rem);line-height:1.12;margin:9px 0}.head p{max-width:390px;color:var(--muted);font-size:.88rem}
+.projects{display:grid;grid-template-columns:1fr 1fr;gap:30px}.project img{width:100%;height:330px;object-fit:cover;display:block}.project-info{display:flex;justify-content:space-between;gap:12px;padding:15px 0;border-bottom:1px solid var(--line)}.project-info strong{font:1.25rem Georgia,serif;font-weight:400}.project-info span{font-size:.65rem;letter-spacing:.12em;color:#777}
+.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px}.copy{max-width:650px;color:var(--muted)}.copy p{margin-top:0}
+.services{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line)}.service{padding:25px 20px 28px 0;border-bottom:1px solid var(--line);min-height:150px}.num{font-size:.65rem;color:#888;letter-spacing:.16em}.service h3{font-size:1.3rem;margin:12px 0 6px}.service p{font-size:.82rem;color:var(--muted);margin:0}
+.contact{background:#222;color:white;text-align:center;padding:90px 20px}.contact .lead{margin:16px auto 28px}.contact .btn{border-color:white}.contact .btn.dark{background:white;color:#222}
+footer{padding:25px 0;color:#777;font-size:.7rem}footer .wrap{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:760px){.links{display:none;position:absolute;top:78px;left:0;right:0;background:var(--paper);padding:20px 5%;flex-direction:column;gap:17px;border-bottom:1px solid var(--line)}.links.open{display:flex}.menu{display:block}.hero{grid-template-columns:1fr;gap:28px;padding:45px 0 70px}.hero-img{height:340px;grid-row:1}.head{display:block}.projects{grid-template-columns:1fr}.project img{height:270px}.about{grid-template-columns:1fr;gap:20px}.services{grid-template-columns:1fr 1fr}section{padding:70px 0}}
+@media(max-width:430px){.services{grid-template-columns:1fr}.hero-img{height:290px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="brand" href="#home">NamTech Verse<small>ARCHITECTURE & DESIGN</small></a>
+<div class="links" id="links"><a href="#home">HOME</a><a href="#projects">PROJECTS</a><a href="#about">ABOUT</a><a href="#services">SERVICES</a><a href="#contact">CONTACT</a></div>
+<button class="menu" onclick="document.getElementById('links').classList.toggle('open')">MENU</button>
+</nav></div></header>
+<main>
+<div class="wrap hero" id="home">
+<div><div class="kicker">Architecture · Interior · Renovation · 3D Visualization</div><h1>Great Architecture<br>Begins <span>With Listening.</span></h1>
+<p class="lead">Thoughtful architecture and interior design, shaped around the way you live. From the first concept to the details that bring a space to life.</p>
+<div class="actions"><a class="btn dark" href="#projects">Explore projects</a><a class="btn light" href="#contact">Discuss your project</a></div></div>
+<div class="hero-img" role="img" aria-label=""><div class="placeholder"></div></div>
+</div>
+<section id="projects"><div class="wrap"><div class="head"><div><div class="kicker">Selected works</div><h2>Projects that tell a story.</h2></div><p>A curated selection of architectural and interior work. Each project begins with understanding the people, place, and purpose.</p></div>
+<div class="projects">
+<article class="project"><img src="https://cdn.phototourl.com/anon/2026-11-19-10e5c1d2-bd4a-488b-8345-0e3f431f0328.png" alt="Contoh proyek arsitektur"><div class="project-info"><strong>RIJAL HOUSE</strong><span>ARCHITECTURE PROJECT</span></div></article>
+<article class="project"><img src="https://cdn.phototourl.com/anon/2026-11-19-690c271b-aad3-4a24-9cd9-b5d650ea5965.png" alt="Contoh proyek interior"><div class="project-info"><strong>DELUXE BEDROOM</strong><span>INTERIOR PROJECT</span></div></article>
+<article class="project"><img src="https://cdn.phototourl.com/anon/2026-11-19-9808395f-9892-4b50-96a8-23b0a5c4b57a.jpg" alt="Contoh rumah modern"><div class="project-info"><strong>ONGKI HOUSE</strong><span>ON GOING PROJECT</span></div></article>
+<article class="project"><img src="https://cdn.phototourl.com/anon/2026-11-19-6134bf4a-21b7-456c-b6e9-852b9d62ee97.png" alt="Contoh visualisasi interior"><div class="project-info"><strong>APARTMENT</strong><span>RENOVATION PROJECT</span></div></article>
+</div></div></section>
+<section id="about"><div class="wrap about"><div><div class="kicker">About NamTech Verse</div><h2>Good design starts with listening.</h2></div><div class="copy"><p>NamTech Verse is an architecture and interior design studio built on the philosophy that great architecture begins with listening. We believe every project should reflect the client’s vision, lifestyle, needs, and budget through a collaborative design approach.</p><p>We believe every project deserves a thoughtful process — we understanding your needs and combine creative design with practical solutions, offering thoughtful recommendations to find the right balance between our clients expectations, design aspirations, and budget.</p><p><em></em></p></div></div></section>
+<section id="services"><div class="wrap"><div class="kicker">What we offer</div><h2>Services.</h2><div class="services">
+<div class="service"><div class="num">ARCHITECTURE</div><h3>Desain Arsitektur</h3><p>Konsep, perencanaan ruang, dan desain bangunan.</p></div>
+<div class="service"><div class="num">INTERIOR</div><h3>Desain Interior</h3><p>Perencanaan interior, suasana ruang, dan pemilihan material.</p></div>
+<div class="service"><div class="num">VISUALIZATION</div><h3>Visualisasi 3D / Rendering</h3><p>Visualisasi desain untuk membantu melihat hasil sebelum dibangun.</p></div>
+<div class="service"><div class="num">RENOVATION</div><h3>Renovasi Rumah</h3><p>Pengembangan desain untuk memperbarui dan meningkatkan hunian.</p></div>
+<div class="service"><div class="num">CONSULTATION</div><h3>Konsultasi Desain</h3><p>Diskusi kebutuhan, potensi lahan, dan arah desain proyek.</p></div>
+<div class="service"><div class="num">DOCUMENTATION</div><h3>Gambar Kerja & RAB</h3><p>Dokumentasi teknis dan perencanaan anggaran biaya.</p></div>
+</div></div></section>
+<div class="contact" id="contact"><div class="kicker">Start a conversation</div><h2>Let's talk about your project.</h2><p class="lead">Punya rencana membangun atau merenovasi rumah? Ceritakan kebutuhanmu, dan mari mulai diskusinya.</p>
+<!-- Ganti nomor 6281234567890 dengan nomor WhatsApp kamu, tanpa tanda + atau spasi. -->
+<a class="btn dark" href="https://wa.me/6289508920088" target="_blank" rel="noopener">Hubungi via WhatsApp</a></div>
+</main>
+<footer><div class="wrap"><span>© 2026 NamTech VERSE. All rights reserved.</span><span>Architecture · Interior · Renovation · 3D Visualization</span></div></footer>
+</body></html>
